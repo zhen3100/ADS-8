@@ -4,12 +4,12 @@
 
 int main() {
   Train train;
-  int count=60; // кол-во вагонов
+  int count = 60; // кол-во вагонов
 
-  while(count--)
-    train.addCage(false); 
+  while (count--)
+    train.addCage (false);
 
-  std::cout << train.getLength() << std::endl; 
-  std::cout << train.getOpCount() << std::endl; 
+  std::cout << train.getLength() << std::endl;
+  std::cout << train.getOpCount() << std::endl;
   return 0;
 }
