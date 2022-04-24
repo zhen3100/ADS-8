@@ -6,7 +6,7 @@ TEST(lab8, test1) {
   Train train;
   int count = 2;
 
-  while(count--)
+  while (count--)
     train.addCage(false);
 
   int len = train.getLength();
@@ -20,7 +20,7 @@ TEST(lab8, test2) {
   Train train;
   int count = 8;
 
-  while(count--)
+  while (count--)
     train.addCage(false);
 
   int len = train.getLength();
@@ -34,7 +34,7 @@ TEST(lab8, test3) {
   Train train;
   int count = 1000;
 
-  while(count--)
+  while (count--)
     train.addCage(false);
 
   int len = train.getLength();
@@ -48,7 +48,7 @@ TEST(lab8, test4) {
   Train train;
   int count = 4;
 
-  while(count--)
+  while (count--)
     train.addCage(true);
 
   int len = train.getLength();
@@ -62,7 +62,7 @@ TEST(lab8, test5) {
   Train train;
   int count = 6;
 
-  while(count--)
+  while (count--)
     train.addCage(true);
 
   int len = train.getLength();

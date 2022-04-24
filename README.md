@@ -55,4 +55,8 @@ class Train {
 Файл **src/train.cpp** должен содержать реализацию методов класса.
 Файл **src/main.cpp** содержит пример использования класса *Train*.
 
-   
+## Полезные ссылки
+
+- ![The Circular Train Puzzle](https://www.youtube.com/watch?v=y5TExT6QNCc)
+- ![Problem #13 - a circular train](http://mathspp.blogspot.com/2019/01/problem-13-circular-train.html)
+- ![Tim Black's Blog](http://math.uchicago.edu/~timblack/blog/train.html)
