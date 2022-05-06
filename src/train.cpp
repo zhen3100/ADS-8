@@ -15,7 +15,7 @@ void Train::addCage(bool light) {
         first->light = true;
         Cage* temp = first->next;
         while (temp!= nullptr) {
-            if (temp != true) {
+            if (first->next->light!= true) {
                 countOp++;
                 k++;
                 temp= temp->next;
