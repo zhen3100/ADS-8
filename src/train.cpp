@@ -13,25 +13,25 @@ void Train::addCage(bool light) {
     }; 
     int Train::getLength() {
         first->light = true;
-        while (first->next != nullptr) {
-            if (first->next->light != true) {
+        Cage* temp = first->next;
+        while (temp!= nullptr) {
+            if (temp != true) {
                 countOp++;
                 k++;
-                first->next = first->next->next;
-            }
-            else {
-                if (first->next->light) {
-                    first->next->light = false;
+                temp= temp->next;
+            } else {
+                if (temp->light) {
+                    temp->light = false;
                     countOp++;
                 }
                 for (int i = k; i > 0; i--) {
-                    first->next = first->next->prev;
+                    temp= temp->prev;
                     countOp++;
                 }
                 if (first->next->light!=true) {
                     break;
                 }
-                first->next = first->next->next;
+                temp = temp->next;
                 k = 1;
             }
         }
